@@ -22,17 +22,17 @@ public class SortingThread extends Thread {
             Date start, end;
             long resTime;
             start = new Date();
-            if (opt == "bubble") {
+            if (opt.equals("bubble")) {
                 BubbleSort.execute(array, mode);
-            } else if (opt == "selection") {
+            } else if (opt.equals("selection")) {
                 SelectionSort.execute(array, mode);
-            } else if (opt == "quick") {
+            } else if (opt.equals("quick")) {
                 QuickSort.execute(array, mode);
-            } else if (opt == "merge") {
+            } else if (opt.equals("merge")) {
                 MergeSort.execute(array, mode);
-            } else if (opt == "insertion") {
+            } else if (opt.equals("insertion")) {
                 InsertionSort.execute(array, mode);
-            } else if (opt == "comb") {
+            } else if (opt.equals("comb")) {
                 CombSort.execute(array, mode);
             }
             end = new Date();
