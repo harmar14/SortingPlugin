@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class SortingThread extends Thread {
-
-    // constructor-based dependency injection
     private String opt;
     private String mode;
     private ArrayList<Integer> array;
