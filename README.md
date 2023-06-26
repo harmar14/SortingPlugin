@@ -10,4 +10,4 @@ How to use:
 4. Select options and press Submit,
 5. Wait for a result to appear.
 
-This plugin is based on a previous project: github.com/harmar14/Sorting_Algorithms
+This plugin is based on a previous project: https://github.com/harmar14/Sorting_Algorithms
